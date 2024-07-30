@@ -1,0 +1,106 @@
+/* Style for the wrapper */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Style for the container */
+  .container {
+    width: 500px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for the headings */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the icons */
+  i {
+    margin-right: 10px;
+  }
+  
+  /* Style for the input fields */
+  input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  button:nth-child(2) {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Style for labels */
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for name fields */
+  .name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn button{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: 30px 70px;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  
+  .name div {
+    width: 100%;
+  }
+  
+  /* Style for address info fields */
+  .address-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .address-info div {
+    width: 30%;
+  }
+  
+  /* Style for credit card info fields */
+  .cc-info div {
+    width: 48%;
+  }
+  
+  /* Style for credit card number */
+  .cc-num input[type=text] {
+    width: calc(100% - 50px);
+  }
+  
+  /* Style for credit card exp and ccv */
+  .cc-info input[type=text] {
+    width: calc(100% - 20px);
+  }
+  
